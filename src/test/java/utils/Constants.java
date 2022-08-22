@@ -8,5 +8,7 @@ public class Constants {
     // (System.getProperty("user.dir") --> it gives you the location of the project on the computer
     public static final int IMPLICIT_WAIT = 20;
     public static final int EXPLICIT_WAIT = 10;
+    // path for our excel file with test data
+    public static final String TEST_DATA_FILEPATH = System.getProperty("user.dir")+"/src/test/resources/testData/Batch13ExcelFIle.xlsx";
 
 }

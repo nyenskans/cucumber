@@ -4,38 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b7ba5e-fdc4-4140-b885-a905493ed552" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Class05 Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Class01 Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Class02 Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Class03 Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Class04 Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddEmployeePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AnotherStepsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeInformationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AddEmployeeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/EmployeeSearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/PageInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EmployeeSearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Test.feature" afterDir="false" />
+    <list default="true" id="e8b7ba5e-fdc4-4140-b885-a905493ed552" name="Changes" comment="&quot;3rd commit&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Class05 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class05 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class01 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class01 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class02 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class02 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class03 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class03 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Class04 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class04 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +48,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/testData" />
+      <recent name="$PROJECT_DIR$/src/test/ClassNotes" />
       <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/utils" />
     </key>
   </component>
   <component name="RunManager" selected="Cucumber Java.Scenario: Verify dashboard tabs">
@@ -187,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660404684040</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;3rd commit&quot;">
+      <created>1661164588525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661164588525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +188,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;3rd commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;3rd commit&quot;" />
   </component>
 </project>
