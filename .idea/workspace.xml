@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8b7ba5e-fdc4-4140-b885-a905493ed552" name="Changes" comment="&quot;3rd commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+    <list default="true" id="e8b7ba5e-fdc4-4140-b885-a905493ed552" name="Changes" comment="&quot;1st commit&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/ClassNotes/class06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Class05 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class05 Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class01 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class01 Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class02 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class02 Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class03 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class03 Notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class04 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class04 Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClassNotes/Class01 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClassNotes/Class02 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClassNotes/Class03 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClassNotes/Class04 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ClassNotes/Class05 Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ClassNotes/Class05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AddEmployeeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AddEmployeeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData/Batch13ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData/Batch13ExcelFile.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify dashboard tabs">
+  <component name="RunManager" selected="JUnit.RunnerClass">
     <configuration name="Feature: Dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" />
@@ -151,10 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify dashboard tabs" />
         <item itemvalue="JUnit.RunnerClass" />
-        <item itemvalue="Cucumber Java.Feature: Dashboard" />
         <item itemvalue="Cucumber Java.Scenario: Adding multiple employees using data table" />
+        <item itemvalue="Cucumber Java.Scenario: Verify dashboard tabs" />
+        <item itemvalue="Cucumber Java.Feature: Dashboard" />
         <item itemvalue="Cucumber Java.Scenario: Search employee by id" />
       </list>
     </recent_temporary>
@@ -175,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661164588525</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;1st commit&quot;">
+      <created>1661169965080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661169965081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;1st commit&quot;">
+      <created>1661169993650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661169993650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +215,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;3rd commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;3rd commit&quot;" />
+    <MESSAGE value="&quot;1st commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;1st commit&quot;" />
   </component>
 </project>

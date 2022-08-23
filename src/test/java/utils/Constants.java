@@ -9,6 +9,6 @@ public class Constants {
     public static final int IMPLICIT_WAIT = 20;
     public static final int EXPLICIT_WAIT = 10;
     // path for our excel file with test data
-    public static final String TEST_DATA_FILEPATH = System.getProperty("user.dir")+"/src/test/resources/testData/Batch13ExcelFIle.xlsx";
-
+    public static final String TEST_DATA_FILEPATH = "/Users/katarinasusic/IdeaProjects/Cucumber/src/test/resources/testData/Batch13ExcelFile.xlsx";
+    public static final String SCREENSHOT_FILEPATH = System.getProperty("user.dir")+"/screenshots/";
 }

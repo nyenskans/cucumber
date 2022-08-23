@@ -41,7 +41,7 @@ public class ExcelReader {
      */
     public static void getSheet(String sheetName){
         // This way, we identify the sheet we should read from excel file:
-        sheet = book.getSheet(sheetName);
+         sheet = book.getSheet(sheetName);
         // Now we read the data from the
     }
 
@@ -84,18 +84,24 @@ public class ExcelReader {
      * @return
      */
     public static List<Map<String, String>> excelListIntoMap(String filePath, String sheetName){
+
         openExcel(filePath);
+
         getSheet(sheetName);
+
         List<Map<String, String>> listData = new ArrayList<>();
+
         // outer loop takes care of total rows in excel file:
         // i starts from 1 because 0 stores keys not values
         for(int row=1; row< getRowCount();row++){
-            // create a map for every row
+            // create a map to store each row
+            // we use LinkedHashMap for data synchronization (to get it in order one by one)
             Map<String, String> map = new LinkedHashMap<>();
             // inner loop takes care of columns in excel file - looping through all values of the cells
             for(int col = 0; col<getColsCount(row); col++){
+
                 // now we add key-value pairs into the map from above using .put()
-                map.put(getCellData(0,col), getCellData(row, col));
+                map.put(getCellData(0,col), getCellData(row, col)); // this line gets header
                 // getCellData(0,col) gives us keys
                 // getCellData(row, col)) gives us values to the corresponding keys
             }

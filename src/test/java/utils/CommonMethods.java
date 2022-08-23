@@ -1,9 +1,8 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,7 +13,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import steps.PageInitializer;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
     public class CommonMethods extends PageInitializer {
@@ -81,8 +84,55 @@ import java.util.concurrent.TimeUnit;
             return js;
         }
 
-        //to perform click via javascript executor
+        /**
+         * to perform click via javascript executor
+         * @param element
+         */
         public static void jsClick(WebElement element){
             getJSExecutor().executeScript("arguments[0].click();", element);
         }
+            // To take a screenshot: Cucumber accepts an array of bytes
+
+        /**
+         * This method takes a screenshot and saves it to a specific location
+         * @param fileName
+         * @return
+         */
+        // we need screenshot at the end of execution --> at the last stage so we need to add it to our hooks -->
+        // before closing the browser
+       public static byte[] takeScreenshot(String fileName){
+           TakesScreenshot ts = (TakesScreenshot) driver;
+           byte[] picBytes = ts.getScreenshotAs(OutputType.BYTES);
+           File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+           // how to name the screenshot:
+           // name of scenario: Valid Admin Login --> if we execute it multiple times, we will only get one screenshot
+           // (files with same name get overridden);
+           // so we have to make a functionality to make a different screenshot name each time:
+           try {
+               FileUtils.copyFile(sourceFile, new File(Constants.SCREENSHOT_FILEPATH  + fileName +
+                                                      getTimeStamp("yyyy-MM-dd-HH-mm-ss")+".png"));
+               // we are calling .getTimeStamp() to add date/time to the name of the screenshot file to make it unique
+               // and adding .png to provide file extension
+           } catch (IOException e) {
+               e.printStackTrace();
+           }
+       return picBytes;
+       }
+
+       // to be able to get a unique name for the screenshot, we are writing another method to get a timestamp and
+       // calling it in the method above
+
+        /**
+         * This method will get a timestamp and format it according to our preference
+         * @param pattern
+         * @return
+         */
+        public static String getTimeStamp(String pattern){ // pattern by which we want to save the date
+            Date date = new Date();
+            // to format the date according to our own choice:
+            SimpleDateFormat sdf = new SimpleDateFormat();
+            return sdf.format(date);
+        }
+
+
     }

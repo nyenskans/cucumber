@@ -46,4 +46,8 @@ Feature: This feature is  going to add employees in HRMS application
 
 
   # Scenario: Verify dashboard tabs--> new feature file
+ @excel
+  Scenario: Adding employees from excel file
+    When user adds multiple employees from excel file using "employeeData" sheet and verify the employees has added
+
 
